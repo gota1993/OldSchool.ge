@@ -148,7 +148,7 @@ main h2 {
     text-align: justify;
     font-weight: 500;
     margin: auto;
-    text-shadow: 1px 1px rgb(119, 119, 119);
+    text-shadow: 1px 1px rgba(179, 179, 179, 0.479);
 }
 
 .location-text {
