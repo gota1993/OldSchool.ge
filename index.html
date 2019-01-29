@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Old School Gym - Stronger Than Yesterday</title>
+</head>
+
+<body>
+
+    <button onclick="topFunction()" id="top-button" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">Old School Gym</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#about-us">ჩვენს შესახებ</a>
+                    <a class="nav-item nav-link" href="#gallery">ფოტო გალერეა</a>
+                    <a class="nav-item nav-link" href="#cost">ღირებულება</a>
+                    <a class="nav-item nav-link" href="#working-schedule">სამუშაო საათები</a>
+                    <a class="nav-item nav-link" href="#address">მისამართი</a>
+                </div>
+            </div>
+            <span class="navbar-brand slogan">Stronger Than Yesterday</span>
+        </nav>
+
+        <div class="main-photo">
+            <div class="logo-div">
+                <img src="./images/logo.png" alt="" class="logo animated zoomIn delay-1s">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="about-us" id="about-us">
+
+            <div class="about-us-left">
+                <div class="about-us-left-content">
+                    <div class="photos aniview slow" data-av-animation="fadeIn">
+                        <img src="./images/arnold.png" alt="">
+                        <img src="./images/frankzane.png" alt="" class="frankzane">
+                        <img src="./images/columbu.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="about-us-right">
+                <hr> <br>
+                <h2>დარბაზის შესახებ</h2>
+                <p class="about-us-text">
+                    <b>Old School Gym</b> დაარსდა 1992 წელს, მაშინ, როდესაც ქვეყანაში ომი და
+                    ნარკომანია ბობოქრობდა. ფიტნეს კლუბის თავდაპირველი მისია ახალგაზრდობის ქუჩისგან მოშორება და მათი
+                    ცხოვრების სტილში ჯანსაღი ცხოვრების წესის დანერგვა იყო. <br><br>
+
+                    ზოგადად Old School ითარგმნება როგორც "ძველი სკოლა" და ბევრ ასპექტში იხმარება. ბოდიბილდინგში ეს
+                    ტერმინი უკავშირდება 1970-იან წლებს, რომელსაც ოქროს ხანას უწოდებენ. იმ დროის წარმატებული
+                    ბოდიბილდერები, არნოლდ შვარცნეგერი, ლარი სკოტი, ფრანკო კოლუმბო და სხვები, სანაპიროზე
+                    ვარჯიშობდნენ ხალხის თანდასწრებით და ამით ეწეოდნენ ბოდიბილდინგის პოპულარიზაციას. <br><br>
+
+                    იმ პერიოდის და დღევანდელი ბოდიბილდერების აღნაგობა საგრძნობლად განსხვავდება ერთმანეთისგან. უფრო მეტი
+                    ყურადღება ეთმობოდა პროპორციებს და ესთეტიურობას, ვიდრე სიდიდეს. ნაკლებ ქიმიურ ანაბოლურ სტეროიდებს
+                    მოიხმარდნენ და მეტ ნატურალურ საკვებს და დანამატებს იღებდნენ. სწორედ ამ პერიოდის საპატივცემულოდ
+                    დაერქვა ჩვენს დარბას Old School Gym.
+                </p>
+            </div>
+
+        </section>
+
+        <section class="gallery" id="gallery">
+            <hr>
+            <h2>დარბაზის ფოტოები</h2>
+
+            <div class="container">
+                <div class="row">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-xs-6 thumb">
+                            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="./images/gym-photos (1).jpg"
+                                data-target="#image-gallery">
+                                <img class="img-thumbnail aniview" data-av-animation="fadeInUp" src="./images/gym-photos (1).jpg"
+                                    alt="Another alt text">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-6 thumb">
+                            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="./images/gym-photos (2).jpg"
+                                data-target="#image-gallery">
+                                <img class="img-thumbnail aniview" data-av-animation="fadeInUp" src="./images/gym-photos (2).jpg"
+                                    alt="Another alt text">
+                            </a>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-xs-6 thumb">
+                            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="./images/gym-photos (3).jpg"
+                                data-target="#image-gallery">
+                                <img class="img-thumbnail aniview" data-av-animation="fadeInUp" src="./images/gym-photos (3).jpg"
+                                    alt="Another alt text">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-6 thumb">
+                            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="./images/gym-photos (4).jpg"
+                                data-target="#image-gallery">
+                                <img class="img-thumbnail aniview" data-av-animation="fadeInUp" src="./images/gym-photos (4).jpg"
+                                    alt="Another alt text">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-6 thumb">
+                            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="./images/gym-photos (5).jpg"
+                                data-target="#image-gallery">
+                                <img class="img-thumbnail aniview" data-av-animation="fadeInUp" src="./images/gym-photos (5).jpg"
+                                    alt="Another alt text">
+                            </a>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-xs-6 thumb">
+                            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="./images/gym-photos (6).jpg"
+                                data-target="#image-gallery">
+                                <img class="img-thumbnail aniview" data-av-animation="fadeInUp" src="./images/gym-photos (6).jpg"
+                                    alt="Another alt text">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-6 thumb">
+                            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="./images/gym-photos (7).jpg"
+                                data-target="#image-gallery">
+                                <img class="img-thumbnail aniview" data-av-animation="fadeInUp" src="./images/gym-photos (7).jpg"
+                                    alt="Another alt text">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-6 thumb">
+                            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="./images/gym-photos (8).jpg"
+                                data-target="#image-gallery">
+                                <img class="img-thumbnail aniview" data-av-animation="fadeInUp" src="./images/gym-photos (8).jpg"
+                                    alt="Another alt text">
+                            </a>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title" id="image-gallery-title"></h4>
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span
+                                            class="sr-only">Close</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img id="image-gallery-image" class="img-responsive col-md-12" src="">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i
+                                            class="fa fa-arrow-left"></i>
+                                    </button>
+
+                                    <button type="button" id="show-next-image" class="btn btn-secondary float-right"><i
+                                            class="fa fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="cost" id="cost">
+            <hr>
+            <h2>ღირებულება / Price</h2>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col s12 m4">
+                        <div class="card aniview" data-av-animation="fadeInUp">
+                            <div class="card-content">
+                                <div class="card-title green white-text">
+                                    <h3>1 დღე • 1 Day</h3>
+                                    <h5>3 Gel</h5>
+                                </div>
+                                <ul class="collection">
+                                    <li class="collection-item">ერთჯერადი ვიზიტი <br> Single Visit</li>
+                                    <li class="collection-item">შეუზღუდავი დრო <br> Unlimited Hours</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col s12 m4">
+                        <div class="card aniview" data-av-animation="fadeInUp">
+                            <div class="card-content">
+                                <div class="card-title yellow darken-4 white-text">
+                                    <h3>1 თვე • 1 Month</h3>
+                                    <h5>45 Gel</h5>
+                                </div>
+                                <ul class="collection">
+                                    <li class="collection-item">ულიმიტო ვიზიტი <br> Unlimited Visits</li>
+                                    <li class="collection-item">შეუზღუდავი დრო <br> Unlimited Hours</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="card aniview" data-av-animation="fadeInUp">
+                            <div class="old-price">90</div>
+                            <div class="card-content">
+                                <div class="card-title blue white-text">
+                                    <h3>2 თვე • 2 Months</h3>
+                                    <h5>80 Gel</h5>
+                                </div>
+                                <ul class="collection">
+                                    <li class="collection-item">ულიმიტო ვიზიტი <br> Unlimited Visits</li>
+                                    <li class="collection-item">შეუზღუდავი დრო <br> Unlimited Hours</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="card aniview" data-av-animation="fadeInUp">
+                            <div class="old-price">135</div>
+                            <div class="card-content">
+                                <div class="card-title blue white-text">
+                                    <h3>3 თვე • 3 Months</h3>
+                                    <h5>110 Gel</h5>
+                                </div>
+                                <ul class="collection">
+                                    <li class="collection-item">ულიმიტო ვიზიტი <br> Unlimited Visits</li>
+                                    <li class="collection-item">შეუზღუდავი დრო <br> Unlimited Hours</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="card aniview" data-av-animation="fadeInUp">
+                            <div class="old-price">270</div>
+                            <div class="card-content">
+                                <div class="card-title blue white-text">
+                                    <h3>6 თვე • 6 Months</h3>
+                                    <h5>200 Gel</h5>
+                                </div>
+                                <ul class="collection">
+                                    <li class="collection-item">ულიმიტო ვიზიტი <br> Unlimited Visits</li>
+                                    <li class="collection-item">შეუზღუდავი დრო <br> Unlimited Hours</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="card aniview" data-av-animation="fadeInUp">
+                            <div class="old-price">540</div>
+                            <div class="card-content">
+                                <div class="card-title blue white-text">
+                                    <h3>12 თვე • 12 Months</h3>
+                                    <h5>350 Gel</h5>
+                                </div>
+                                <ul class="collection">
+                                    <li class="collection-item">ულიმიტო ვიზიტი <br> Unlimited Visits</li>
+                                    <li class="collection-item">შეუზღუდავი დრო <br> Unlimited Hours</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="working-schedule" id="working-schedule">
+            <hr>
+            <h2>სამუშაო საათები / Working Ours</h2>
+
+            <div class="container">
+                <div class="row">
+                    <div class="table-responsive table-bordered movie-table aniview" data-av-animation="flipInX">
+
+                        <table class="table movie-table">
+                            <thead>
+                                <tr class="movie-table-head">
+                                    <th>დღე<br>Days</th>
+                                    <th>საათი<br>Hours</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="dark-row">
+                                    <td><span class="working-days">ორშაბათი, ოთხშაბათი, პარასკევი</span><br> Monday,
+                                        Wednesday, Friday</td>
+                                    <td style="color:red; font-size: 1.4em;"> <span style="color:green;">10:00 -</span>
+                                        23:00 </td>
+                                </tr>
+
+                                <tr class="dark-row">
+                                    <td><span class="working-days">სამშაბათი, ხუთშაბათი, შაბათი</span><br> Tuesday,
+                                        Thursday, Saturday</td>
+                                    <td style="color:red; font-size: 1.4em"> <span style="color:green;">12:00 -</span>
+                                        23:00 </td>
+                                </tr>
+
+                                <tr class="dark-row">
+                                    <td><span class="working-days">კვირა</span><br>Sunday</td>
+                                    <td style="color:red; font-size: 1.4em"> <span style="color:green;">11:00 -</span>
+                                        16:00 </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="address" id="address">
+            <hr>
+            <h2>მისამართი / Address</h2>
+            <div class="address-container">
+                <div class="location-text">
+                    <p class="location-text-p aniview" data-av-animation="fadeInLeft">
+                        <span class="location-text-p-geo">
+                            მისამართი: დიღმის მასივი, მე-6 კვარტალი, მე-18 კორპუსი. <br> <br>
+
+                            დარბაზი მდებარეობს დიღმის მასივში, გრიგოლ რობაქიძის გამზირზე, მაიაკოვსკის
+                            ძეგლის გვერდზე. რესტორან "შემოიხედე გენაცვალეს" ქვემოთ. შესასვლელი საკანცელარიო მაღაზიის
+                            გვერდიდან. <br> <br>
+
+                            დიდუბის მეტროდან არის 2 გაჩერება, ან ფეხით 10 წუთის გზა. <br> <br>
+                        </span>
+
+                        <span class="location-text-p-eng">
+
+                            Address: Dighomi Massive, VI Quarter, building 18<br> <br>
+
+                            Gym "Old School Gym" is located in Dighomi Massive, on Grigol Robakidze avenue, near
+                            Mayakovski
+                            Statue. Under restaurant "Shemoikhede Genatsvale". Entrance beside stationery store. <br>
+                            <br>
+
+                            2 bus station from Didube Metro Station, or 10 minutes walk.
+                        </span>
+
+                    </p>
+                </div>
+
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+
+                        <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=old%20school%20gym&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        </iframe>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-logo">
+                <img src="./images/logo-white.png" alt="">
+            </div>
+
+            <div class="footer-social">
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Foldschoolgymm&tabs&width=280&height=130&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId"
+                    width="280" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowTransparency="true" class="footer-social__facebook" allow="encrypted-media"></iframe>
+            </div>
+
+            <div class="footer-navigation">
+                    <ul class="footer-nav">
+                        <li> <a class="footer-nav-items" href="#about-us">ჩვენს შესახებ</a>
+                        </li>
+                        <li> <a class="footer-nav-items" href="#gallery">ფოტო გალერეა</a>
+                        </li>
+                        <li> <a class="footer-nav-items" href="#cost">ღირებულება</a>
+                        </li>
+                        <li> <a class="footer-nav-items" href="#working-schedule">სამუშაო საათები</a>
+                        </li>
+                        <li> <a class="footer-nav-items" href="#address">მისამართი</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/jquery-aniview/dist/jquery.aniview.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.aniview').AniView();
+        });
+    </script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
