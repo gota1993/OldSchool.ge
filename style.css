@@ -603,6 +603,7 @@ main h2 {
 
     .address-container {
         flex-direction: column;
+        width: 100%
     }
 
     .location-text {
